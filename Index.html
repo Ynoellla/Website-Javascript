@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>IST239 Final Project HomePage</title>
+<link href="Style.css" rel="stylesheet" >
+<script src="JavaScript.js" defer></script>
+</head>
+<body class="container">
+	<header> 
+	<img src="IMG_2957.jpg" alt="Picture of me and my fiancee"  id="head-img" >
+	<h1 class="header"> Levi Noell-Baba</h1>
+	<p class="header"> e-mail: <a href="mailto:Ynoellla@my.gvltec.edu"> ynoellla@my.gvltec.edu</a></p>
+	<h1 id="example"> IST 239 Final Project<br>Click images to see corresponding webpage</h1>
+	</header>
+	
+		<div class="left">
+		<form id="survey"> 
+			<fieldset id="studentInfo"><legend> Student Information</legend>
+				<div class="formRow"> <label for="name">Name</label>
+				<input name="stuName" id="name" type="text" placeholder="Levi Noell-Baba" required>
+				</div>
+				<div class="formRow">
+				<label for="email">E-mail</label>
+				<input name="mail" id="email" type="email" placeholder="ynoellla@my.gvltec.edu">
+				</div>
+				<div class="formRow">
+				<label for="phone">Phone</label>
+				<input name="phone" id="phone" type="tel" placeholder="(864)555-5555">
+				</div>
+				<div class="formRow">
+				<label for="rangeBox">Enter number of tutorials completed<br >
+					(0=0: 36=36)</label>
+				0
+				<input name="TutorialCompleted" id="rangeBox" type="range"
+					value="18" step="1" min="0" max="36" >
+				36
+				</div>
+			</fieldset>
+			<div id="button">
+				<input type="submit" value="Submit" onclick="myFunction()">
+				<input type="reset" value="Cancel">
+				<p id="click"></p>
+				<script>
+					function myFunction() {
+					  document.getElementById("click").innerHTML = "Submitted";
+					}
+				</script>
+			</div>
+		</form>
+		<div class="table">
+			<table>
+				<tr>
+					<th>Projects  </th>
+					<th>Grades</th>
+				</tr>
+				<tr>
+					<td>1-1</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>1-3</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>1-5</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>2-1</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>2-3</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>2-5</td>
+					<td>125</td>
+				</tr>
+				<tr>
+					<td>3-1</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>3-3</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>3-5</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>4-1</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>4-3</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>4-5</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>5-1</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>5-3</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>5-5</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>6-1</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>6-3</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>6-5</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>7-1</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>7-3</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>7-5</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>8-1</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>8-3</td>
+					<td>76.66</td>
+				</tr>
+				<tr>
+					<td>8-5</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>9-1</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>9-3</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>9-5</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>10-1</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>10-3</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>10-5</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>11-1</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>11-3</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>11-5</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>12-1</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>12-3</td>
+					<td>TBD</td>
+				</tr>
+				<tr>
+					<td>12-5</td>
+					<td>TBD</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<div class="mid">
+		<div class="row">
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project01-01/project01-01.html" target="_blank"><img src="Hands-OnProject1-1.jpg" alt="Graded Practice 1"  class="col-img" ></a>
+				<p> In Hands-on exercise 01-01 the book is teaching us to use the document.write() command to have JavaScript create the HTML code for an ordered list of items. </p>
+			</div>
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project01-03/project01-03.html" target="_blank"><img src="Hands-OnProject1-3.jpg" alt="Graded Practice 2"  class="col-img" ></a>
+				<p>In Hands-on exercise 01-03 the book is teaching us to use the document.write() command to have JavaScript create an onclick event that displays a message when the user clicks the submit button. </p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project01-05/project01-05.html" target="_blank"><img src="Hands-OnProject1-5.jpg" alt="Graded Practice 3"  class="col-img" ></a>
+				<p>In Hands-on exercise 01-05 the book is teaching us to be aware and able to recognize mistakes in JavaScript code. </p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project02-01/project02-01.html" target="_blank"><img src="Hands-OnProject2-1.jpg" alt="Graded Practice 4"  class="col-img" ></a>
+			 <p>In Hands-on exercise 02-01 the book is teaching us to use event handlers to handle user input to execute designated functions </p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project02-03/project02-03.html" target="_blank"><img src="Hands-OnProject2-3.jpg" alt="Graded Practice 5"  class="col-img" ></a>
+				<p>In Hands-on exercise 02-03 the book is teaching us to apply event handlers that use the hover method to detect and display a message if the user is hovering over a specific area. </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project02-05/project02-05.html" target="_blank"><img src="Hands-OnProject2-5.jpg" alt="Graded Practice 6"  class="col-img" ></a>
+				<p>In Hands-on exercise 02-05 the book is teaching us to correctly detect and correct errors in code. </p>
+			</div>
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project03-01/project03-01.html" target="_blank"><img src="Hands-OnProject3-1.jpg" alt="Graded Practice 7"  class="col-img" ></a>
+				<p>In this project the book is teaching us how to use a for loop and an if statement to calculate the total cost of items as they are selected.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project03-03/project03-03.html" target="_blank"><img src="Hands-OnProject3-3.jpg" alt="Graded Practice 8"  class="col-img" ></a>
+				<p>In this project the book is teaching us how to declare an htmlCode variable. the book then asks us to create an for loop to loop through an array and increase by increments of 1. initialize the index of the array to i and then set tbody element to htmlCode from innerHTML. </p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project03-05/project03-05.html" target="_blank"><img src="Hands-OnProject3-5.jpg" alt="Graded Practice 9"  class="col-img" ></a>
+			 <p>In Hands-on exercise 03-05 the book is teaching us to correctly detect and correct errors in code.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project04-01/project04-01.html" target="_blank"><img src="Hands-OnProject4-1.jpg" alt="Graded Practice 10"  class="col-img" ></a>
+				<p>In Hands-on exercise 04-01 the book is teaching us to a try catch statement to catch exceptions and notify the user to input a valid value.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project04-03/project04-03.html" target="_blank"><img src="Hands-OnProject4-3.jpg" alt="Graded Practice 6"  class="col-img" ></a>
+				<p>In Hands-on exercise 04-03 the book is teaching us to use a try catch finally statement in code. The book is also teaching us to find and fix errors found in the code. </p>
+			</div>
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project04-05/project04-05.html" target="_blank"><img src="Hands-OnProject4-5.jpg" alt="Graded Practice 7"  class="col-img" ></a>
+				<p>In Hands-on exercise 04-05 the book is teaching us to correctly detect and correct errors in code using the debugger console.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project05-01/project05-01.html" target="_blank"><img src="Hands-OnProject5-1.jpg" alt="Graded Practice 8"  class="col-img" ></a>
+				<p>In Hands-on exercise 05-01 the book is teaching us to use loops to keep checking data until a true result is returned. </p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project05-03/project05-03.html" target="_blank"><img src="Hands-OnProject5-3.jpg" alt="Graded Practice 9"  class="col-img" ></a>
+			 <p>In Hands-on exercise 05-03 the book is teaching us to set anchor points that can be used as links on a webpage.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project05-05/project05-05.html" target="_blank"><img src="Hands-OnProject5-5.jpg" alt="Graded Practice 10"  class="col-img" ></a>
+				<p>In Hands-on exercise 05-05 the book is teaching us to correctly detect and correct errors in code. </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project06-01/project06-01.html" target="_blank"><img src="Hands-OnProject6-1.jpg" alt="Graded Practice 6"  class="col-img" ></a>
+				<p>In Hands-on exercise 06-01 the book is teaching us to code a form in javascript that detects if the required fields have been filled and if certain fields fit specifications. if not, a custom message is displayed. </p>
+			</div>
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project06-03/project06-03.html" target="_blank"><img src="Hands-OnProject6-3.jpg" alt="Graded Practice 7"  class="col-img" ></a>
+				<p>In Hands-on exercise 06-03 the book is teaching us to code a form that will copy information from one part of the form to another if certain conditions are fulfilled.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project06-05/project06-05.html" target="_blank"><img src="Hands-OnProject6-5.jpg" alt="Graded Practice 8"  class="col-img" ></a>
+				<p>In Hands-on exercise 06-05 the book is teaching us to correctly detect and correct errors in code.  </p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project07-01/project07-01.html" target="_blank"><img src="Hands-OnProject7-1.jpg" alt="Graded Practice 9"  class="col-img" ></a>
+			 <p>In Hands-on exercise 07-01 the book is teaching us to use regular expressions to verify that a password passes validation before it is accepted.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project07-03/project07-03.html" target="_blank"><img src="Hands-OnProject7-3.jpg" alt="Graded Practice 10"  class="col-img" ></a>
+				<p>In Hands-on exercise 07-03 the book is teaching us to correctly use the properties and methods of Date objects to create a clock that counts down the time to the start of the new year.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project07-05/project07-05.html" target="_blank"><img src="Hands-OnProject7-5.jpg" alt="Graded Practice 6"  class="col-img" ></a>
+				<p>In Hands-on exercise 07-05 the book is teaching us to correctly detect and correct errors in code. </p>
+			</div>
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project08-01/project08-01.html" target="_blank"><img src="Hands-OnProject8-1.jpg" alt="Graded Practice 7"  class="col-img" ></a>
+				<p>In Hands-on exercise 08-01 the book is teaching us to use object classes to build a countdown timer.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project08-03/project08-03.html" target="_blank"><img src="Hands-OnProject8-3.jpg" alt="Graded Practice 8"  class="col-img" ></a>
+				<p>In Hands-on exercise 08-03 the book is teaching us to create objects and use object code to describe the contents of a pizza dn the contents of a shopping cart. </p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project08-05/project08-05.html" target="_blank"><img src="Hands-OnProject8-5.jpg" alt="Graded Practice 9"  class="col-img" ></a>
+			 <p>In Hands-on exercise 08-05 the book is teaching us to correctly detect and correct errors in code. </p>
+			</div>
+			<div class="column">
+			 <a href="https://www.ist239-noell-baba.beausanders.net/Project09-01/project09-01a.html" target="_blank"><img src="Hands-OnProject9-1.jpg" alt="Graded Practice 10"  class="col-img" ></a>
+				<p>In Hands-on exercise 09-01 the book is teaching us to connect different web pages and their contents to display the intended content.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<a href="https://www.ist239-noell-baba.beausanders.net/Project09-03/project09-03.html" target="_blank"><img src="Hands-OnProject9-3.jpg" alt="Graded Practice 6"  class="col-img" ></a>
+				<p>In Hands-on exercise 09-03 the book is teaching us to code a website that will record the date and time of your last visit in a local storage item and marked with the text string "New" upon first visit. </p>
+			</div>
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project09-05/product01.html" target="_blank"><img src="Hands-OnProject9-5.jpg" alt="Graded Practice 7"  class="col-img" ></a>
+				<p>In Hands-on exercise 09-05 the book is teaching us to correctly detect and correct errors in code. </p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project10-01/project10-01.html" target="_blank"><img src="Hands-OnProject10-1.jpg" alt="Graded Practice 8"  class="col-img" ></a>
+				<p>In Hands-on exercise 10-01 the book is teaching us to write code that will enable the users to drag and drop elements into specific places. </p>
+			</div>
+			<div class="column">
+			 <a href="https://www.ist239-noell-baba.beausanders.net/Project10-03/project10-3.html" target="_blank"><img src="Hands-OnProject10-3.jpg" alt="Graded Practice 9"  class="col-img" ></a>
+			 <p>In Hands-on exercise 10-03 the book is teaching us to use a Google cloud account with an API key allow location services to be used on a webpage.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project10-05/project10-5.html" target="_blank"><img src="Hands-OnProject10-5.jpg" alt="Graded Practice 10"  class="col-img" ></a>
+				<p>In Hands-on exercise 10-05 the book is teaching us to correctly detect and correct errors in code. </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project11-01/project11-01.html" target="_blank"><img src="Hands-OnProject11-1.jpg" alt="Graded Practice 6"  class="col-img" ></a>
+				<p>In Hands-on exercise 11-01 the book is teaching us to use fetch to retrieve the astronomy picture of the day from an API on the NASA website. </p>
+			</div>
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project11-03/project11-03.html" target="_blank"><img src="Hands-OnProject11-3.jpg" alt="Graded Practice 7"  class="col-img" ></a>
+				<p>In Hands-on exercise 11-03 the book is teaching us to complete an app that retrieves customer orders from a script named wworder.pl on the web server.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project11-05/project11-05.html" target="_blank"><img src="Hands-OnProject11-5.jpg" alt="Graded Practice 8"  class="col-img" ></a>
+				<p>In Hands-on exercise 11-05 the book is teaching us to correctly detect and correct errors in code.  </p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project12-01/project12-01.html" target="_blank"><img src="Hands-OnProject12-1.jpg" alt="Graded Practice 9"  class="col-img" ></a>
+			 <p>In Hands-on exercise 12-01 the book is teaching us to create a dropdown menu containing links to other pages on the website.</p>
+			</div>
+			<div class="column">
+			 <a href="https://ist239-noell-baba.beausanders.net/Project12-03/project12-03.html" target="_blank"><img src="Hands-OnProject12-3.jpg" alt="Graded Practice 10"  class="col-img" ></a>
+				<p>In Hands-on exercise 12-03 the book is teaching us to use Jquery to add visual effects to a recipe page for a dessert website.</p>
+			</div>
+			<div class="column">
+				<a href="https://ist239-noell-baba.beausanders.net/Project12-05/project12-05.html" target="_blank"><img src="Hands-OnProject12-5.jpg" alt="Graded Practice 6"  class="col-img" ></a>
+				<p>In Hands-on exercise 12-05 the book is teaching us to correctly detect and correct errors in code. </p>
+			</div>
+		</div>
+		
+		<div>
+			<audio controls>
+				<source src="cp_overture.ogg" type="audio/ogg">
+				<source src="cp_overture.mp3" type="audio/mp3">
+				<p><em>Your Browser does not support the audio.</em></p>
+			</audio>
+		</div>
+	</div>
+
+	<div class="right">
+		<nav>
+			<ul>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="Index.html">Additional Links</a>
+					<ul> 
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project01-01/project01-01.html" target="_blank">Hands-On Project 1-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project01-03/project01-03.html" target="_blank">Hands-On Project 1-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project01-05/project01-05.html" target="_blank">Hands-On Project 1-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project02-01/project02-01.html" target="_blank">Hands-On Project 2-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project02-03/project02-03.html" target="_blank">Hands-On Project 2-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project02-05/project02-05.html" target="_blank">Hands-On Project 2-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project03-01/project03-01.html" target="_blank">Hands-On Project 3-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project03-03/project03-03.html" target="_blank">Hands-On Project 3-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project03-05/project03-05.html" target="_blank">Hands-On Project 3-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project04-01/project04-01.html" target="_blank">Hands-On Project 4-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project04-03/project04-03.html" target="_blank">Hands-On Project 4-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project04-05/project04-05.html" target="_blank">Hands-On Project 4-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project05-01/project05-01.html" target="_blank">Hands-On Project 5-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project05-03/project05-03.html" target="_blank">Hands-On Project 5-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project05-05/project05-05.html" target="_blank">Hands-On Project 5-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project06-01/project06-01.html" target="_blank">Hands-On Project 6-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project06-03/project06-03.html" target="_blank">Hands-On Project 6-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project06-05/project06-05.html" target="_blank">Hands-On Project 6-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project07-01/project07-01.html" target="_blank">Hands-On Project 7-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project07-03/project07-03.html" target="_blank">Hands-On Project 7-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project07-05/project07-05.html" target="_blank">Hands-On Project 7-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project08-01/project08-01.html" target="_blank">Hands-On Project 8-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project08-03/project08-03.html" target="_blank">Hands-On Project 8-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project08-05/project08-05.html" target="_blank">Hands-On Project 8-5</a></li>
+						<li><a href="https://www.ist239-noell-baba.beausanders.net/Project09-01/project09-01a.html" target="_blank">Hands-On Project 9-1</a></li>
+						<li><a href="https://www.ist239-noell-baba.beausanders.net/Project09-03/project09-03.html" target="_blank">Hands-On Project 9-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project09-05/product01.html" target="_blank">Hands-On Project 9-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project10-01/project10-01.html" target="_blank">Hands-On Project 10-1</a></li>
+						<li><a href="https://www.ist239-noell-baba.beausanders.net/Project10-03/project10-3.html" target="_blank">Hands-On Project 10-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project10-05/project10-5.html" target="_blank">Hands-On Project 10-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project11-01/project11-01.html" target="_blank">Hands-On Project 11-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project11-03/project11-03.html" target="_blank">Hands-On Project 11-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project11-05/project11-05.html" target="_blank">Hands-On Project 11-5</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project12-01/project12-01.html" target="_blank">Hands-On Project 12-1</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project12-03/project12-03.html" target="_blank">Hands-On Project 12-3</a></li>
+						<li><a href="https://ist239-noell-baba.beausanders.net/Project12-05/project12-05.html" target="_blank">Hands-On Project 12-5</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<footer> 
+		<p> Created November 30, 2023 | IST 239 |  <a href="https://www.gvltec.edu/" target="_blank"> Greenville Technical College</a></p>
+		<p id="dateAndTime">Loading...</p>
+	</footer>
+</body>
+</html>

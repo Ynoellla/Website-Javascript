@@ -1,0 +1,284 @@
+/*------------------------------Header---------------------------*/
+.header {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	align-content: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	color:#87CEEB;
+	width: 75%;
+}
+
+#head-img {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding: 1em;
+	align-content: center;
+	width: 35%;
+	filter: drop-shadow(0px 0px 20px #87CEEB);
+	color: #00008B;
+}
+
+
+
+
+p a {
+	text-decoration: none;
+	color: #87CEEB;
+}
+
+p a:hover {
+	color:#87CEEB;
+}
+
+/*------------------------------Container---------------------------*/
+.container {
+	background: url("IMG_8874.JPG");
+	background-size: cover;
+	width: 100%;
+	/*max-width: 1080px;*/
+	margin: 0 auto; 
+	position: absolute;
+}
+
+.left {
+    float: left;
+    width: 15%;
+	position: relative;
+}
+
+.mid {
+    float: left;
+    width: 70%;
+	position: relative;
+}
+
+.right {
+    float: left;
+    width: 15%;
+	position: relative;
+}
+
+
+.clear {
+	clear: both;
+}
+
+/*------------------------------Navigation---------------------------*/
+nav ul {
+	list-style: none; 
+	background-color: #0000CD; 
+	text-align: center; 
+	padding: 0; 
+	justify-content: center;
+	margin: auto;	
+	z-index: 10; 
+	width: 95%;
+	list-style-type:none;
+	border-radius: 10px;
+}
+
+.right:hover ul {
+	width: 100%; 
+}
+	
+nav ul li {
+	line-height: 30px; 
+	height: 60px; 
+	width: 100%;
+	
+}
+
+nav ul li a {
+	font-size:20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	display:block;
+	padding: 0px 5px;
+	color: #FFFFFF;
+	text-decoration:none;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	background-color: #BFBADE;
+}
+
+nav ul li ul {
+	display:none;
+	width: inherit;
+}
+
+nav ul li:hover ul {
+	display:block;
+	width:inherit;
+}
+
+nav ul li ul li {
+	display: block;
+}
+
+/*------------------------------Graded Practice---------------------------*/
+.column {
+	float: left;
+	width: 100%;
+	padding: 10px;
+	font-size:15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	color: white;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: #00BFFF;
+	border-radius: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-img {
+	width: 100%;
+}
+
+#example {
+	font-family: Impact, Haettenschweiler, "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	color: hsla(215,89%,30%,1.00);
+	text-shadow: -2px 1px #00BFFF;
+	text-align: center;
+}
+
+/*------------------------------------Table---------------------------------------*/
+.table {
+	width:95%;
+	float: left;
+	background-color: #48D1CC;
+	margin: 0 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	line-height: 35px;
+}
+
+tr {
+	font-size: 1.25vw;
+}
+
+td {
+	font-size: 1vw;
+}
+
+/*------------------------------Form---------------------------*/
+.formRow {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+	flex: 1;
+}
+
+.formRow > * {
+	-webkit-flex: 1 1 150px;
+	flex: 1 1 150px;
+}
+
+.formRow > input#TutorialCompleted {
+	-webkit-flex: 0 0 30px;
+	flex: 0 0 50px;
+}
+
+form#survey {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+fieldset {
+	background-color: #87CEEB;
+	width: 100%;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	text-shadow: 0px -1px 15px black;
+	border-radius: 10px;
+	display: block;
+}
+
+form#spinner {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	width: 50%
+}
+
+form#spinner >fieldset {
+	background-color: #87CEEB;
+	width: 100%;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	text-shadow: 0px 0px 20px black;
+	border-radius: 10px;		
+}
+
+#button {
+	text-align: center;
+	width: 100%;
+	float: right;	
+}
+
+input[type=submit] {
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	border-radius: 4px;
+	background: hsla(286,14%,30%,1.00);
+	user-select: none;
+}
+
+input[type=reset] {
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	border-radius: 4px;
+	background: hsla(286,14%,30%,1.00);
+	user-select: none;
+}
+
+#click {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+
+/*------------------------------Video/Audio---------------------------*/
+
+
+audio {
+	width: 100%;
+}
+
+/*------------------------------Footer---------------------------*/
+footer {
+	align-content: center;
+	background-color: #000080;
+	padding: 5px 0;	
+}
+
+footer p {
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	text-align: center;
+}
+
+footer p a:hover {
+	color: hsla(29,63%,55%,1.00);
+}
+
+footer p a {
+	color: white;
+}
